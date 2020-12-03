@@ -7,9 +7,9 @@ import {
   LayoutAnimation,
   InteractionManager,
 } from 'react-native'
-import ListView from 'deprecated-react-native-listview'
+import ListView from 'deprecated-react-native-listview';
 
-const HEIGHT = Dimensions.get('window').height
+const HEIGHT = Dimensions.get('window').height;
 
 class Row extends React.Component {
   constructor(props) {
